@@ -1,101 +1,52 @@
 <!DOCTYPE html>
 <html>
-<html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>"Hamilton: The Revolution"</title>
-
+    <title>Day-Hike Planner</title>
     <link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/index.css">
-
-	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Cormorant:300i,400,400i,500,500i,600,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+ 	<link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300, 400, 700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-<div class="header" >
-	<img id="logopic" src="images/hamiltonlogo.png">
-	<div id="intro-container">
-	<p id="intro1">BEING THE COMPLETE 'WEBRETTO'</p>
-	<p id="intro2">of the</p>
-	<p id="intro3">BROADWAY MUSICAL.</p>
-	<p id="intro4">WITH A TRUE ACCOUNT OF</p>
-	<p id="intro5">ITS CREATION.</p>
-	<p id="intro6">based on the work of Lin-Manuel Miranda and Jeremy McCarter</p>
+  	<!-- LANDER -->
+  	<div id="lander">
+ 		 <h1>Day Hike Planner</h1>
+ 		
 	</div>
-</div>
-<div class="spacer"></div>
-<div class="header-border"></div>
-<div class="table-of-contents"></div>
-<div class="i"> <img src="images/downarrow.png">ACT ONE <img src="images/downarrow.png"></div>
-<div class="i-container">
-	<ul class="i-left-list">
-		<li><a href="songs/001.html">Alexander Hamilton</a></li>
-		<li><a href="songs/002.html">Aaron Burr, Sir</a></li>
-		<li><a href="#">My Shot</a></li>
-		<li><a href="#">The Story of Tonight</a></li>
-		<li><a href="#">The Schuyler Sisters</a></li>
-		<li><a href="#">Farmer Refuted</a></li>
-		<li><a href="#">You'll Be Back</a></li>
-		<li><a href="#">Right Hand Man</a></li>
-		<li><a href="#">A Winter's Ball</a></li>
-		<li><a href="#">Helpless</a></li>
-		<li><a href="#">Satisfied</a></li>
-		<li><a href="#">The Story of Tonight (Reprise)</a></li>
-	</ul>
-	<ul class="i-right-list">
-		<li><a href="#">Wait for It</a></li>
-		<li><a href="#">Stay Alive</a></li>
-		<li><a href="#">Ten Duel Commandments</a></li>
-		<li><a href="#">Meet Me Inside</a></li>
-		<li><a href="#">That Would Be Enough</a></li>
-		<li><a href="#">Guns and Ships</a></li>
-		<li><a href="#">History Has Its Eyes On You</a></li>
-		<li><a href="#">Yorktown (The World Turned Upside Down)</a></li>
-		<li><a href="#">What Comes Next?</a></li>
-		<li><a href="#">Dear Theodosia</a></li>
-		<li><a href="#">Non-Stop</a></li>
-	</ul>
-	</div>
-<div class="spacer"></div>
-<div class="ii"> <img src="images/downarrow.png">ACT TWO <img src="images/downarrow.png"></div>
-<div class="ii-container">
-	<ul class="ii-left-list">
-		<li><a href="#">What'd I Miss</a></li>
-		<li><a href="#">Cabinet Battle #1</a></li>
-		<li><a href="#">Take a Break</a></li>
-		<li><a href="#">Say No to This</a></li>
-		<li><a href="#">The Room Where It Happens</a></li>
-		<li><a href="#">Schuyler Defeated</a></li>
-		<li><a href="#">Cabinet Battle #2</a></li>
-		<li><a href="#">Washington on Your Side</a></li>
-		<li><a href="#">One Last Time</a></li>
-		<li><a href="#">I Know Him</a></li>
-		<li><a href="#">The Adams Administration</a></li>
-		<li><a href="#">We Know</a></li>
-	<li><a href=""></a></li>
-	</ul>
-	<ul class="ii-right-list">
-	
-		<li><a href="#">Hurricane</a></li>
-		<li><a href="#">The Reynolds Pamphlet</a></li>
-		<li><a href="#">Burn</a></li>
-		<li><a href="#">Blow Us All Away</a></li>
-		<li><a href="#">Stay Alive (Reprise)</a></li>
-		<li><a href="#">It's Quiet Uptown</a></li>
-		<li><a href="#">The Election of 1800</a></li>
-		<li><a href="#">Your Obedient Servant</a></li>
-		<li><a href="#">Best of Wives and Best of Women</a></li>
-		<li><a href="#">The World Was Wide Enough</a></li>
-		<li><a href="#">Who Lives, Who Dies, Who Tells Your Story</a></li>
-	</ul>
-	</div>
-	<div class="spacer"></div>
-	<img id="bottompic" src="images/bottom.png">
-	<img id="bottompic2" src="images/bottom2.png">
-	<div id="bottom"></div>
 
-</div>
+	<!-- ABOUT SECTION -->
+	<div id="about">
+		This application uses your current location to show hikes near you and shares local weather so you can plan a day hike quickly and hit the trail!
+
+	</div>
+
+	
+	<div id="hiking-results-header">Hiking Trails Near You</div>
+	<div id="results-container">
+		<div id="hiking-results">
+			<p id='trail-header'>Trails</p>
+			<ul id="trail-list">
+			</ul>
+		</div>
+	
+		<div id="trail-results">
+			<div>
+				
+			</div>
+			
+		</div>
+
+	</div>
+	
+
+	<!-- footer -->
+	<footer id="footer"></footer>
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="JS/index.js"></script>
+	<script src="app.js"></script>
+
   </body>
 </html>

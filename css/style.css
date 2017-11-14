@@ -1,0 +1,133 @@
+/*
+Project Name: Camping Planner
+Author: Kim Cordova
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  font-family:  'Poppins', Sans-Serif;
+  font-size: 14px;
+  background: #D5C6B8;
+  color: white;
+}
+
+.toggle {
+  display:none;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+#lander {
+  margin-top: 50px;
+  height: auto;
+  background: #26201E; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  text-align: center;
+  font-family: 'Abril Fatface', Cursive;
+  font-size: 2.5em;
+  letter-spacing: 0.15em;
+
+}
+
+#about {
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: auto;
+  background: #C0232E;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 1.25em;
+}
+
+#hiking-results-header {
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: auto;
+  background: #1B4231;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Abril Fatface', Cursive;
+  letter-spacing: 0.15em;
+}
+#results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#hiking-results, #trail-results{
+  background: white;
+  margin: 50px;
+  min-height: 200px;
+  height: auto;
+  width: 33%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border-color: #D2A93A;
+  border-style: solid;
+  border-width: 20px;
+  color: black;
+}
+
+#weather-results-header {
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: auto;
+  background: #D2A93A;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Abril Fatface', Cursive;
+  letter-spacing: 0.15em;
+
+}
+
+
+li {
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+#trail-header, .trail-title {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.trail-detail  {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 3px;
+}
+
+.weather-detail {
+  padding: 1px;
+  cursor: pointer;
+}
